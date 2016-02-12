@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Projects </title>
+  <link rel="stylesheet" type="text/css" href="pages.css">
+  <link rel="stylesheet" type="text/css" href="projects.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="div1">
+      <h1>Costume <br/> Projects</h1>
+      <div id="project_select">
+        <input type="button" class="account_button" id="project1" value="Project 1" onclick="show_project1"/><br/>
+        <input type="button" class="account_button" id="project2" value="Project 2" onclick="show_project2"/><br/>
+        <input type="button" class="account_button" id="project3" value="Project 3" onclick="show_project3"/><br/>
+        <input type="button" class="account_button" id="project4" value="Project 4" onclick="show_project4"/><br/>
+        <input type="button" class="account_button" id="project5" value="Project 5" onclick="show_project5"/><br/>
+      </div>
+      <div id="project_description">
+      </div>
+    </div>
+    <div id="div2">
+      <div id="project_id">
+        <p></p>
+      </div>
+      <div id="project_diplay">
+      </div>
+      <div id="project_buttons">
+        <input type="button" id="finished_product" class="account_button" value="View Finished Project" onclick="project_state"/>
+        <input type="button" id="project_components" class="account_button" value="View Project Components" onclick="project_state"/>
+      </div>
+      <div id="project_comments">
+      </div>
+      <div id="project_insert_comment">
+        <h1>Comments</h1>
+        <textarea id="new_moment" class="textbox"></textarea>
+        <input type="button" id="submit" value="Submit"/>
+      </div>
+    </div>
+    <div id="div3">
+      <div id="component_id">
+      </div>
+      <div id="component_display">
+      </div>
+      <div id="progress_buttons">
+        <input type="button" id="component_left" value="Previous" onclick="component_left"/>
+        <input type="button" id="component_right" value="Next" onclick="component_right"/>
+      </div>
+      <div id="component_comments">
+        <h1>Comments</h1>
+      </div>
+      <div id="component_insert_comment">
+        <textarea id="new_moment" class="textbox"></textarea>
+        <input type="button" id="submit" value="Submit"/>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

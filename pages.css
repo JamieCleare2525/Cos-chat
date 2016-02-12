@@ -1,0 +1,27 @@
+body{
+  height: 100%;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+}
+
+#wrapper{
+  background: #F7F7FA; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#F7F7FA, #98AFC7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F7F7FA, #98AFC7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F7F7FA, #98AFC7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F7F7FA, #98AFC7); /* Standard syntax (must be last) */
+  width:1000px;
+  height: 100%;
+  margin:auto;
+  padding:20px;
+  padding-bottom: 50px;
+  overflow: auto;
+  border: 5px solid  #ABABC7;
+}
+
+.account_button{
+  width:100%;
+}

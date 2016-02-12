@@ -1,0 +1,44 @@
+#picture_layer{
+  height:200px;
+  width: 100%;
+}
+
+#personal_div{
+  width: 400px;
+  float:left;
+
+}
+
+#friends_preview{
+  height:100px;
+  background: #0036e6;
+}
+
+#interests_div{
+  width:580px;
+  float:right;
+}
+
+#message_link{
+  display: none;
+}
+
+#preconvo_link{
+  display:none;
+}
+
+#regional_link{
+  display:none;
+}
+
+#events_link{
+  display:none;
+}
+
+#interest1_link{
+  display:none;
+}
+
+#interest2_link{
+  display:none;
+}
